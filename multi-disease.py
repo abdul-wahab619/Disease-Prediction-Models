@@ -14,7 +14,7 @@ heartdisease_model = pickle.load(open('heartdisease_model.sav','rb'))
 parkinsons_model = pickle.load(open('parkinson_model.sav','rb'))
 
 
-with st.sidebar:
+with st.sidebar: 
     selected = option_menu('Multiple Disease Prediction',
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
